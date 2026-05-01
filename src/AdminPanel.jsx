@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import {
   BarChart,
   Bar,
@@ -18,6 +18,11 @@ const emptyForm = {
   imageUrl: "",
   subItems: ""
 };
+
+const getSubItemTitle = (subItem) =>
+  typeof subItem === "string"
+    ? subItem
+    : subItem?.title || subItem?.label || "Sub Course";
 
 export default function AdminPanel() {
   const [items, setItems] = useState(() => getChartData());
@@ -51,7 +56,7 @@ export default function AdminPanel() {
       title: item.title,
       description: item.description,
       imageUrl: item.imageUrl || "",
-      subItems: item.subItems ? item.subItems.join(", ") : ""
+      subItems: item.subItems ? item.subItems.map(getSubItemTitle).join(", ") : ""
     });
   };
 
@@ -234,7 +239,7 @@ export default function AdminPanel() {
                 {item.subItems && item.subItems.length > 0 ? (
                   <ul className="admin-subitems">
                     {item.subItems.map((sub, index) => (
-                      <li key={`${sub}-${index}`}>{sub}</li>
+                      <li key={`${getSubItemTitle(sub)}-${index}`}>{getSubItemTitle(sub)}</li>
                     ))}
                   </ul>
                 ) : null}

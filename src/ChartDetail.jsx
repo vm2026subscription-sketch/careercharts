@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import { getChartData } from "./dataStore";
@@ -7,11 +6,7 @@ import "./App.css";
 export default function ChartDetail() {
   const { id } = useParams();
   const navigate = useNavigate();
-  const [data, setData] = useState(() => getChartData());
-
-  useEffect(() => {
-    setData(getChartData());
-  }, []);
+  const data = getChartData();
 
   const point = data.find((item) => item.id === id);
 
@@ -20,6 +15,9 @@ export default function ChartDetail() {
       {point ? (
         <article className="detail-card">
           <header className="detail-hero">
+            <button className="back-link" type="button" onClick={() => navigate("/")}>
+              Back to paths
+            </button>
             <span className="detail-pill">Career Path</span>
             <h1 className="detail-title">{point.title}</h1>
             {point.subtitle ? (
@@ -27,6 +25,20 @@ export default function ChartDetail() {
             ) : (
               <p className="detail-subtitle">Focused guidance for your next step</p>
             )}
+            <div className="detail-metrics">
+              <div>
+                <strong>{point.subItems?.length || 0}</strong>
+                <span>Options</span>
+              </div>
+              <div>
+                <strong>{point.sections?.entranceExams?.length || 0}</strong>
+                <span>Exams</span>
+              </div>
+              <div>
+                <strong>{point.sections?.topColleges?.length || 0}</strong>
+                <span>Institutes</span>
+              </div>
+            </div>
           </header>
           <section className="detail-body">
             {point.sections ? (
@@ -102,13 +114,22 @@ export default function ChartDetail() {
               <div className="detail-subitems">
                 <h3 className="detail-section-title">Sub Courses</h3>
                 <ul className="detail-list">
-                  {point.subItems.map((item, index) => (
-                    <li key={`${String(item)}-${index}`}>
+                  {point.subItems.map((item, index) => {
+                    const subTitle =
+                      typeof item === "string"
+                        ? item
+                        : item.title || item.label || `Sub Course ${index + 1}`;
+
+                    return (
+                    <li key={`${subTitle}-${index}`}>
                       <Link className="detail-sub-link" to={`/chart/${point.id}/sub/${index}`}>
-                        {typeof item === "string" ? item : item.title || item.label || `Sub Course ${index + 1}`}
+                        <b>{String(index + 1).padStart(2, "0")}</b>
+                        <span>{subTitle}</span>
+                        <small>View course overview</small>
                       </Link>
                     </li>
-                  ))}
+                    );
+                  })}
                 </ul>
               </div>
             ) : null}
