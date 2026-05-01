@@ -1,0 +1,284 @@
+[
+  {
+    "id": "0",
+    "label": "10th (SSC)",
+    "title": "10th (SSC)",
+    "subtitle": "Stream: Foundation | Duration: Completed at age ~15-16",
+    "description": "The 10th Standard (SSC) is the foundation of your academic journey. After passing 10th, students can choose Science, Commerce, or Arts streams for 11th-12th, or opt for diploma/vocational courses directly.",
+    "sections": {
+      "about": "The 10th Standard (SSC) is the foundation of your academic journey. After passing 10th, students can choose Science, Commerce, or Arts streams for 11th-12th, or opt for diploma/vocational courses directly.",
+      "eligibility": "Passing 10th Board Examination (any stream)",
+      "avgSalary": "N/A – Foundation level",
+      "entranceExams": ["None required for stream selection", "NEET (later for Science)", "JEE (later for Engineering)"],
+      "topColleges": ["Any local school or junior college", "Navodaya Vidyalaya", "Kendriya Vidyalaya"],
+      "careerScope": "Stepping stone to all streams. Choose wisely based on your interests.",
+      "keySkills": "Basic Mathematics, Science, English, Social Studies"
+    },
+    "subItems": [
+      "Science (PCM)",
+      "Science (PCB)",
+      "Commerce",
+      "Arts",
+      "Vocational"
+    ]
+  },
+  {
+    "id": "2",
+    "label": "12th Commerce",
+    "title": "12th Commerce",
+    "subtitle": "Stream: Commerce Stream | Duration: 2 years (11th + 12th)",
+    "description": "Commerce stream after 10th opens up career options in business, finance, management, law, and more.",
+    "sections": {
+      "about": "The Commerce stream opens doors to Finance, Accounting, Business Management, Law, Entrepreneurship, and many professional fields. Students study Accounts, Economics, Business Studies along with English.",
+      "eligibility": "10th pass with good marks (usually 60%+)",
+      "avgSalary": "Varies by career chosen",
+      "entranceExams": ["CAT", "CMA Entrance", "IPCC", "CS Foundation", "CLAT"],
+      "topColleges": ["Delhi University", "Mumbai University", "Institute of Chartered Accountants"],
+      "careerScope": "Accounting, Finance, Law, Business Management, Entrepreneurship, and related fields.",
+      "keySkills": "Accounting ◆ Mathematics ◆ Economics ◆ Communication"
+    },
+    "subItems": [
+      "B.Com",
+      "BBA",
+      "CA (Chartered Accountancy)",
+      "CS (Company Secretary)",
+      "CMA",
+      "BMS",
+      "BBA-IB",
+      "B.A. Economics",
+      "B.Com (Banking/Finance)",
+      "B.Com (Taxation)",
+      "BBA (Logistics)",
+      "BBA (Marketing)"
+    ]
+  },
+  {
+    "id": "3",
+    "label": "12th Science (PCM)",
+    "title": "12th Science",
+    "subtitle": "Stream: Science Stream | Duration: 2 years (11th + 12th)",
+    "description": "Science stream with Physics, Chemistry, Maths leads to engineering, architecture, defense, and research careers.",
+    "sections": {
+      "about": "The Science stream opens doors to Engineering, Medicine, Research, IT, and many professional fields. Students study Physics, Chemistry, Mathematics/Biology along with English.",
+      "eligibility": "10th pass with good marks (usually 60%+)",
+      "avgSalary": "Varies by career chosen",
+      "entranceExams": ["JEE Main", "JEE Advanced", "NEET", "MHT-CET", "BITSAT"],
+      "topColleges": ["IIT", "NIT", "AIIMS", "Government Science Colleges"],
+      "careerScope": "Widest career options – Engineering, Medicine, IT, Research, Defense, and more.",
+      "keySkills": "Physics ◆ Chemistry ◆ Mathematics ◆ Analytical Thinking"
+    },
+    "subItems": [
+      "B.Tech",
+      "B.E.",
+      "B.Arch",
+      "NDA",
+      "B.Sc. Physics",
+      "B.Sc. Mathematics",
+      "B.Sc. Statistics",
+      "Merchant Navy",
+      "BCA",
+      "B.Sc. Computer Science"
+    ]
+  },
+  {
+    "id": "4",
+    "label": "12th Science (PCB)",
+    "title": "12th Science",
+    "subtitle": "Stream: Science Stream | Duration: 2 years (11th + 12th)",
+    "description": "Science stream with Physics, Chemistry, Biology leads to medical, paramedical, and life sciences careers.",
+    "sections": {
+      "about": "The Science stream opens doors to Medicine, Research, Paramedical, Agriculture, and other life science fields. Students study Physics, Chemistry, Biology along with English.",
+      "eligibility": "10th pass with good marks (usually 60%+)",
+      "avgSalary": "Varies by career chosen",
+      "entranceExams": ["NEET", "MHT-CET", "AIIMS NEET", "JIPMER", "AFMC"],
+      "topColleges": ["AIIMS", "Medical Colleges", "Government Medical Institutions"],
+      "careerScope": "Medical, Paramedical, Research, Agriculture, Veterinary, and allied health sciences.",
+      "keySkills": "Physics ◆ Chemistry ◆ Biology ◆ Analytical Thinking"
+    },
+    "subItems": [
+      "MBBS",
+      "BDS",
+      "BAMS",
+      "BHMS",
+      "B.Sc. Nursing",
+      "B.Pharm",
+      "BPT",
+      "BMLT",
+      "B.Sc. Biotechnology",
+      "B.Sc. Microbiology"
+    ]
+  },
+  {
+    "id": "5",
+    "label": "12th Arts",
+    "title": "12th Arts",
+    "subtitle": "Stream: Arts/Humanities Stream | Duration: 2 years (11th + 12th)",
+    "description": "Arts stream opens up careers in humanities, social sciences, law, design, journalism, and more.",
+    "sections": {
+      "about": "The Arts stream opens doors to Law, Journalism, Social Sciences, Public Administration, Design, and creative fields. Students study History, Geography, Political Science, Economics along with English.",
+      "eligibility": "10th pass",
+      "avgSalary": "Varies by career chosen",
+      "entranceExams": ["CLAT", "DU JAT", "CUET", "BHU PET"],
+      "topColleges": ["Delhi University", "St. Stephens College", "Miranda House", "Law Colleges"],
+      "careerScope": "Law, Journalism, Public Service, Social Work, Psychology, Design, and creative industries.",
+      "keySkills": "Communication ◆ Critical Thinking ◆ Writing ◆ Analysis"
+    },
+    "subItems": [
+      "B.A.",
+      "BFA",
+      "BSW",
+      "BJMC",
+      "LLB",
+      "B.A. Psychology",
+      "B.A. Sociology",
+      "B.A. Political Science",
+      "B.A. English",
+      "B.Des"
+    ]
+  },
+  {
+    "id": "6",
+    "label": "Engineering",
+    "title": "Engineering",
+    "subtitle": "Stream: Professional Degree | Duration: 4 years (B.Tech/B.E.)",
+    "description": "Engineering is a popular career after 12th Science (PCM).",
+    "sections": {
+      "about": "Engineering offers excellent career prospects in various industries including IT, Aerospace, Construction, Manufacturing, and Renewable Energy. It combines theoretical knowledge with practical applications.",
+      "eligibility": "12th Science (PCM) with good marks (usually 60%+)",
+      "avgSalary": "₹5-10 LPA (starting), up to ₹20+ LPA with experience",
+      "entranceExams": ["JEE Main", "JEE Advanced", "BITSAT", "State CET"],
+      "topColleges": ["IIT Delhi", "IIT Bombay", "NIT Trichy", "BITS Pilani"],
+      "careerScope": "Software, Hardware, Aerospace, Civil, Mechanical, Electrical, Chemical, and emerging tech sectors.",
+      "keySkills": "Mathematics ◆ Physics ◆ Problem-Solving ◆ Logical Thinking"
+    },
+    "subItems": [
+      "Computer Engineering",
+      "Mechanical Engineering",
+      "Civil Engineering",
+      "Electrical Engineering",
+      "Electronics Engineering",
+      "IT Engineering",
+      "Chemical Engineering",
+      "Aerospace Engineering"
+    ]
+  },
+  {
+    "id": "7",
+    "label": "Medical (MBBS)",
+    "title": "Medical (MBBS)",
+    "subtitle": "Stream: Professional Medical Degree | Duration: 5.5 years (MBBS + 1 yr internship)",
+    "description": "MBBS is the primary degree for becoming a doctor. Other options are listed below.",
+    "sections": {
+      "about": "Medicine offers the noble profession of healthcare delivery. MBBS graduates can specialize in various fields like Surgery, Medicine, Pediatrics, Psychiatry, and more.",
+      "eligibility": "12th Science (PCB) with good marks (usually 85%+)",
+      "avgSalary": "₹5-10 LPA (government), ₹10-20+ LPA (private practice)",
+      "entranceExams": ["NEET", "AIIMS", "JIPMER", "State Medical Exams"],
+      "topColleges": ["AIIMS Delhi", "PGI Chandigarh", "CMC Vellore", "Christian Medical College"],
+      "careerScope": "Doctor, Surgeon, Specialist, Medical Researcher, Public Health Professional, and more.",
+      "keySkills": "Biology ◆ Chemistry ◆ Compassion ◆ Patience ◆ Dedication"
+    },
+    "subItems": [
+      "MBBS",
+      "BDS",
+      "BAMS",
+      "BHMS",
+      "BPT",
+      "B.Sc. Nursing",
+      "B.Pharm"
+    ]
+  },
+  {
+    "id": "8",
+    "label": "Law (LLB)",
+    "title": "Law (LLB)",
+    "subtitle": "Stream: Professional Law Degree | Duration: 5 years (5yr integrated) or 3 years (after graduation)",
+    "description": "Law can be pursued after 12th (5-year integrated) or after graduation (3-year LLB).",
+    "sections": {
+      "about": "Law is a prestigious profession offering careers in litigation, corporate law, government service, academia, and more. It combines ethical values with professional expertise.",
+      "eligibility": "12th pass (5-year integrated) or Graduation (3-year LLB)",
+      "avgSalary": "₹5-10 LPA (government), ₹10-30+ LPA (corporate law/practice)",
+      "entranceExams": ["CLAT", "LSAT India", "University Exams"],
+      "topColleges": ["National Law School Bangalore", "Delhi University Law", "Gujarat National Law"],
+      "careerScope": "Lawyer, Judge, Corporate Counsel, Legal Advisor, Government Service, Academics.",
+      "keySkills": "Communication ◆ Analytical Skills ◆ Critical Thinking ◆ Integrity"
+    },
+    "subItems": [
+      "BA LLB",
+      "BBA LLB",
+      "B.Com LLB",
+      "LLB (3-year)"
+    ]
+  },
+  {
+    "id": "9",
+    "label": "Management (BBA/MBA)",
+    "title": "Management (BBA/MBA)",
+    "subtitle": "Stream: Business Management | Duration: 3 years (BBA), 2 years (MBA)",
+    "description": "Management degrees lead to careers in business, HR, marketing, and entrepreneurship.",
+    "sections": {
+      "about": "Management education develops leaders and entrepreneurs. BBA provides foundation while MBA offers specialization in Finance, Marketing, HR, Operations, and more.",
+      "eligibility": "12th pass (BBA), Graduation (MBA)",
+      "avgSalary": "₹4-8 LPA (BBA), ₹8-20+ LPA (MBA from top colleges)",
+      "entranceExams": ["CAT", "XAT", "GMAT", "University Entrance Tests"],
+      "topColleges": ["IIM Ahmedabad", "IIM Bangalore", "FMS Delhi", "XLRI Jamshedpur"],
+      "careerScope": "Business Manager, Consultant, Entrepreneur, HR Head, Finance Manager, Marketing Director.",
+      "keySkills": "Leadership ◆ Finance ◆ Communication ◆ Strategy"
+    },
+    "subItems": [
+      "BBA",
+      "BMS",
+      "BBA (Finance)",
+      "BBA (Marketing)",
+      "MBA (Finance)",
+      "MBA (HR)",
+      "MBA (Marketing)"
+    ]
+  },
+  {
+    "id": "10",
+    "label": "Design & Fine Arts",
+    "title": "Design & Fine Arts",
+    "subtitle": "Stream: Creative Arts | Duration: 3-4 years (Bachelor)",
+    "description": "Careers in design and fine arts are open after 12th Arts or Commerce.",
+    "sections": {
+      "about": "Design and Fine Arts offer creative expression and professional career opportunities in fashion, graphic design, animation, interior design, and digital media.",
+      "eligibility": "12th pass, Portfolio with artwork samples",
+      "avgSalary": "₹3-8 LPA (starting), ₹15+ LPA (experienced)",
+      "entranceExams": ["NIFT Entrance", "NID Entrance", "University Exams"],
+      "topColleges": ["National Institute of Design", "NIFT", "AAFT", "JJ School of Art"],
+      "careerScope": "Fashion Designer, Graphic Designer, Animator, Art Director, Interior Designer, Digital Designer.",
+      "keySkills": "Creativity ◆ Visual Communication ◆ Software Skills ◆ Innovation"
+    },
+    "subItems": [
+      "B.Des (Fashion)",
+      "B.Des (Graphic)",
+      "B.Des (Interior)",
+      "BFA",
+      "Diploma in Fine Arts",
+      "Animation & VFX"
+    ]
+  },
+  {
+    "id": "11",
+    "label": "Hotel Management",
+    "title": "Hotel Management",
+    "subtitle": "Stream: Hospitality Management | Duration: 3 years (Bachelor), 2 years (Diploma)",
+    "description": "Hotel Management degrees lead to careers in hospitality, tourism, and events.",
+    "sections": {
+      "about": "Hotel Management combines business acumen with hospitality skills. Graduates work in hotels, resorts, airlines, cruise lines, event management, and travel companies.",
+      "eligibility": "12th pass",
+      "avgSalary": "₹2.5-5 LPA (starting), ₹8-15+ LPA (with experience)",
+      "entranceExams": ["AICATS", "University Entrance Tests"],
+      "topColleges": ["Institute of Hotel Management Delhi", "IHMR New Delhi", "Welcomgroup Graduate School of Hotel Administration"],
+      "careerScope": "Hotel Manager, Chef, Event Manager, Travel Consultant, Cruise Staff, Restaurant Manager.",
+      "keySkills": "Customer Service ◆ Management ◆ Hospitality ◆ Leadership"
+    },
+    "subItems": [
+      "BHM",
+      "B.Sc. Hospitality",
+      "Diploma in Hotel Management",
+      "Travel & Tourism",
+      "Event Management"
+    ]
+  }
+]
