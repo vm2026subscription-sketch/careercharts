@@ -1,11 +1,10 @@
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import { getChartData } from "./dataStore";
 import "./App.css";
 
 export default function ChartDetail() {
   const { id } = useParams();
-  const navigate = useNavigate();
   const data = getChartData();
 
   const point = data.find((item) => item.id === id);
@@ -15,9 +14,6 @@ export default function ChartDetail() {
       {point ? (
         <article className="detail-card">
           <header className="detail-hero">
-            <button className="back-link" type="button" onClick={() => navigate("/")}>
-              Back to paths
-            </button>
             <span className="detail-pill">Career Path</span>
             <h1 className="detail-title">{point.title}</h1>
             {point.subtitle ? (
